@@ -4,6 +4,11 @@ This repository has sample code for unit test on kotlin, Android. It is for self
 
 このリポジトリは、unit test のサンプルコードを共有するためのもの。基本的には個人的な勉強のために使っています。
 
+# Branch
+
+- main : only base sample application / 基本のサンプルアプリのみ
+- unit-test : base sample application and unit test code / サンプルアプリとユニットテストコード
+
 # Reference
 
 The 1st and 2nd reference were refered to make code for unit test. The 3rd reference was refered to make MVVM architecture.
