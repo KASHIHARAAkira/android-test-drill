@@ -2,6 +2,7 @@ package email.example.praticaltest
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import email.example.praticaltest.model.VirtualModel
 
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -21,4 +22,5 @@ class ExampleInstrumentedTest {
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("email.example.praticaltest", appContext.packageName)
     }
+
 }
