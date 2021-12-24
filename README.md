@@ -26,6 +26,7 @@ Zenn[[4](https://zenn.dev/akira_kashihara/articles/03d1e2496eb2a5)]に記事と�
 
 - main : only base sample application / 基本のサンプルアプリのみ
 - unit-test : base sample application and unit test code / サンプルアプリとユニットテストコード
+- ui-test: base sample application and ui test code / サンプルアプリと UI テストコード
 
 # Demo
 
