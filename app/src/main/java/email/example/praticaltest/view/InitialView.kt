@@ -12,8 +12,8 @@ fun InitialView(mainViewModel: MainViewModel) {
     var str1 by remember{ mutableStateOf("") }
     var str2 by remember{ mutableStateOf("") }
     Column {
-        TextField(value = str1, onValueChange = { str1 = it })
-        TextField(value = str2, onValueChange = { str2 = it })
+        TextField(value = str1, onValueChange = { str1 = it }, label = {Text(text = "Str1")})
+        TextField(value = str2, onValueChange = { str2 = it }, label = { Text(text = "Str2")})
         Button(onClick = { mainViewModel.concatStrLoad(str1 = str1, str2 = str2) }) {
             Text(text = "Send")
         }
